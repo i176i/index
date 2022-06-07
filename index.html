@@ -13,13 +13,29 @@
       integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="./style.css">
   </head>
   <body>
-      
-    <div class="project-content container">
-      <table class="table table-hover table-striped my-2 mx-auto">
+    <div class="header d-flex justify-content-center">
+      <h2 class="px-5 py-2 bg-dark text-light mt-3 rounded-pill">Project Index</h2>
+    </div>
+
+    <div class="container-fluid m-0 p-0 ">
+        <div class="w-sm-75 d-flex justify-content-between my-3  mx-sm-auto mx-3">
+          <div class="py-1 px-3 d-flex align-items-center mx-auto  rounded-pill border border-danger">
+            <div class="bg-danger indicator mx-2 rounded-pill"></div>
+            Mid size Project
+          </div>
+          <div  class="py-1 d-flex px-3  align-items-center mx-auto  rounded-pill border border-primary">
+            <div class="bg-primary indicator  mx-2 rounded-pill"></div>
+            Small Project
+          </div>
+        </div>
+     </div> 
+    <div class="project-content container ">
+      <table class="table table-hover table-striped rounded-3 my-2 mx-auto">
         <thead class="bg-dark text-light">
-            <th scope="col" class="h3">#</th>
+            <th scope="col" class="h3">No.</th>
             <th scope="col" class="h3">Project Name</th>
         </thead>
         <tbody>
