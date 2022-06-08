@@ -5,3 +5,10 @@
 .bg-red-light{
     background-color: rgb(255, 228, 228);
 }
+tr {
+    line-height: 35px;
+    min-height: 25px;
+    height: 75px;
+    letter-spacing: 1px;
+    word-spacing: 4px;
+ }
